@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+    margin:0 auto;
+  width: 1440px;
+  height: 2000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: black; */
+}
+.wapper-popup {
+  width: 800px;
+  height: 455px;
+  margin: 358px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.popup-title {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 12px 16px;
+}
+.title-course {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.img-exit {
+  width: 16px;
+  height: 16px;
+}
+
+/* wp-inforStaff */
+.wp-inforStaff {
+  padding-top: 16px;
+  border-bottom: 1px solid #eeeeee;
+}
+.name-staff {
+  margin-left: 8px;
+}
+.nameStaff {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-popup {
+  margin-left: 16px;
+}
+.nameStaff-wp {
+  display: flex;
+}
+.color-green {
+  color: #00833e;
+}
+
+.code-staff {
+  margin: auto 8px auto 60px;
+}
+.demo-main-popup {
+  margin-left: 10px;
+}
+.wp-course-demo {
+  margin: 32px auto 12px auto;
+}
+/* status */
+.wp-status {
+  height: 109px;
+  border-bottom: 1px solid #eeeeee;
+}
+.status-complete {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.status-complete-title {
+  font-weight: 500;
+}
+.poin-green {
+  width: 8px;
+  height: 8px;
+  background-color: #00833e;
+  border-radius: 50%;
+  margin: auto 4px auto 18px;
+}
+.scoreAchieved-wp {
+  display: flex;
+  align-items: center;
+  margin: 5px auto 32px auto;
+}
+.scoreAchieved {
+  margin-right: 61px;
+}
+.course-follow {
+  margin-right: 10px;
+}
+.wp-course-bottom {
+  margin-bottom: 12px;
+}
+.wp-course-end {
+}
+.poin-red {
+  width: 8px;
+  height: 8px;
+  background-color: #ff3a3a;
+  border-radius: 50%;
+  margin: auto 4px auto 18px;
+}
+.color-red {
+  color: #ff3a3a;
+}
