@@ -14,7 +14,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  /* background-color: black; */
+  background: rgba(0,0,0,0.5)
+  
 }
 .wapper-popup {
   width: 800px;
@@ -23,7 +24,7 @@ body {
   border-radius: 20px;
   overflow: hidden;
   background-color: white;
-
+ z-index:10;
 }
 
 .popup-title {
